@@ -415,10 +415,10 @@ body {
     align-items: flex-start;
   }
   .audio__inner {
-    min-height: 180vh;
+    min-height: 180dvh;
   }
   .header {
-    min-height: 80vh;
+    min-height: 80dvh;
   }
   .header__top {
     padding: 15px 0;
