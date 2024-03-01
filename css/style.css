@@ -400,6 +400,7 @@ body {
   .menu__list {
     flex-wrap: wrap;
     gap: 20px 40px;
+    margin-top: 9px;
   }
   .menu__item-btn {
     margin-left: auto;
@@ -412,6 +413,15 @@ body {
   }
   .header__top {
     align-items: flex-start;
+  }
+  .audio__inner {
+    min-height: 180vh;
+  }
+  .header {
+    min-height: 80vh;
+  }
+  .header__top {
+    padding: 15px 0;
   }
 }
 
