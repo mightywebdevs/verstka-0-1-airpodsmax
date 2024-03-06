@@ -7,16 +7,15 @@ chooseColor.forEach(el => {
 
 function open(evt) {
 	const target = evt.currentTarget
-  const button = target.dataset.button
-  const contentActive = document.querySelectorAll(`.${button}`) 
+	const button = target.dataset.button
+	const contentActive = document.querySelectorAll(`.${button}`)
 	chooseColor.forEach(item =>
 		item.classList.remove('choose-color__btn--active')
 	)
 	target.classList.add('choose-color__btn--active')
 
-  contentItem.forEach(item => {
+	contentItem.forEach(item => {
 		item.classList.remove('content-item--active')
-
-  })
-  contentActive.forEach(item => item.classList.add('content-item--active'))
+	})
+	contentActive.forEach(item => item.classList.add('content-item--active'))
 }
